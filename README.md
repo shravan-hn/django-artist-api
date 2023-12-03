@@ -1,16 +1,9 @@
 # django-artist-api
 
-#### Introduction
-
-```markdown
 ## Introduction
 
 The Artist Portfolio API is a Django REST Framework project designed to manage artist profiles and their works. It allows for CRUD operations on artist data and works, ensuring secure access through token-based authentication.
-```
 
-#### Setting Up the Project
-
-```markdown
 ## Setup
 
 To get the project up and running on your local machine, follow these steps:
@@ -55,11 +48,8 @@ To get the project up and running on your local machine, follow these steps:
    ```
    python manage.py runserver
    ```
-```
 
-#### Using the API
 
-```markdown
 ## Usage
 
 Once the server is running, you can start using the API.
@@ -90,14 +80,9 @@ Once the server is running, you can start using the API.
 
 To access the protected endpoints, include the token in the header of your request:
 
-```
+
 Authorization: Bearer <Your-Token>
-```
-```
 
-#### Examples
-
-```markdown
 ## Examples
 
 Here are some example requests to get you started:
@@ -118,7 +103,20 @@ Response:
   "email": "newuser@example.com"
 }
 ```
-```
+
+
+#### Troubleshooting
+
+
+## Troubleshooting
+
+If you encounter any issues, check the following:
+
+- Ensure the Django server is running.
+- Verify that all environment variables are set correctly.
+- Check for error messages in the server logs.
+
+
 
 
 
