@@ -99,8 +99,12 @@ curl -X POST http://127.0.0.1:8000/api/users/register/ \
 Response:
 ```
 {
-  "username": "newuser",
-  "email": "newuser@example.com"
+    "user": {
+        "username": "newuser1",
+        "email": "newuser@example.com"
+    },
+    "refresh": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90mcmVzaCIsImV4cCI6MTcNjAzMTE5LCJqdGkiOiI0NzI2MjI0YzE1ZTE0MmVkOTBmMWU1Njg3NDE0ZTZmNiIsInVzZXJfaWQiOjR9.8U-9Vsb_RGQtNAZSy3kyyyC9bq4juoEGoFIuF5ob3pE",
+    "access": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlblNjZXNzIiwiZXhwIjoxNzAxNjAzNDE5LCJpYDE2MDMxMTksImp0aSI6IjFjYmIzNzkwYTNlNTQzNDE5ZThiNGMyZmRlMzYzN2M0IiwidXNlcl9pZCI6NH0.N4lZmYF8ADC3AsnF7Nxlzy6kxO2SZHfW_R7U1GQgJZk"
 }
 ```
 
